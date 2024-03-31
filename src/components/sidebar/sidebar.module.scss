@@ -1,0 +1,15 @@
+.root {
+  flex: 1;
+  background-color: #ADC2A9;
+}
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 4rem;
+  padding: 10px;
+  background-color: #99A799;
+}

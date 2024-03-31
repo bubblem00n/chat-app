@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import s from "./home.module.scss";
+import Sidebar from "../../components/sidebar/Sidebar";
+import Chat from "../../components/chat/Chat";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <div className={s.root}>
+      <div className={s.wrapper}>
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
+  );
+}; 
 
-export default HomePage
+export default HomePage;

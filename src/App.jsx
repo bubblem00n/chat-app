@@ -5,7 +5,9 @@ import { HomePage, LoginPage, RegisterPage } from "./pages";
 function App() {
   return (
     <div className="App">
-      <RegisterPage/>
+      {/* <RegisterPage/> */}
+      {/* <LoginPage/> */}
+      <HomePage/>
     </div>
   );
 }
